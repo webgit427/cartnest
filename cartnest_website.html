@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartnest - Natural Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Cartnest</h1>
+    <p>Spices, Herbal Products, Leather Goods, Crafts & More</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="images/spices.jpg" alt="Spices" />
+        <h3>Premium Spices</h3>
+        <p>100% natural Sri Lankan spices.</p>
+      </div>
+      <div class="product">
+        <img src="images/herbal.jpg" alt="Herbal Products" />
+        <h3>Herbal Products</h3>
+        <p>Organic and healthy remedies.</p>
+      </div>
+      <div class="product">
+        <img src="images/coconut.jpg" alt="Coconut Products" />
+        <h3>Coconut Items</h3>
+        <p>Eco-friendly coconut-based goods.</p>
+      </div>
+      <div class="product">
+        <img src="images/leather.jpg" alt="Leather Goods" />
+        <h3>Leather Goods</h3>
+        <p>Stylish and durable leather items.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cartnest. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
